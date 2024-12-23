@@ -1,0 +1,108 @@
+
+body {
+    font-family: "Oswald", sans-serif;
+
+}
+
+
+/* navbar */
+.navbar-brand {
+    color:white; 
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover {
+    color: rgb(32, 253, 32);
+}
+.nav-link {
+    color:white; 
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: rgb(32, 253, 32);
+}
+
+
+/* about section */
+.custom-btn {
+    background-color: #28a745; 
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.custom-btn:hover {
+    background-color: #218838;
+}
+
+
+/* Search Your trip */
+.search-section {
+    background-color: #7fa3c7;
+    padding: 40px 0; 
+}
+.search-section .row > div {
+    text-align: center;
+}
+.search-section .row p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+/* Trending destination cards */
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;  
+    height: 200px;
+    object-fit: cover; 
+}
+
+
+/* Booking Form */
+.booking-section {
+    background-color:#7fa3c7;
+    padding: 20px 0;
+}
+
+/*Contact Section*/
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icon {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s, transform 0.3s;
+}
+.social-icon:hover {
+    color: #28a745;
+    transform: translateY(-5px);
+}
+
+
+/* Footer */
+footer p {
+    margin: 0;
+}
+
+.custom-footer {
+    background-color: #343a40;
+}
+
+.transition-icon {
+    transition: transform 0.3s ease;
+}
+
+.transition-icon:hover {
+    transform: scale(1.2);
+}
